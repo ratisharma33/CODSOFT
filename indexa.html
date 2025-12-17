@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rati Sharma | Portfolio</title>
+
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="astyle.css">
+</head>
+<body>
+
+   
+    <nav>
+        <strong>Rati Sharma</strong>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home">
+        <h1>Rati Sharma</h1>
+        <p>BCA Student at Chandigarh University</p>
+        <div style="margin-top:15px;">
+            <a href="https://www.linkedin.com/in/rati-sharma-b6730932a" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/ratisharma33" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </header>
+
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about">
+            <img src="https://i.pinimg.com/1200x/66/2e/fa/662efade7487e6c399b1667a60c9cae6.jpg" alt="Your Image">
+            <div class="card">
+                I am a 2nd year 4th sem BCA student at Chandigarh University, passionate about programming,
+                web development, app development, and database systems. I enjoy building
+                simple, responsive websites using HTML, CSS, and JavaScript.
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="skills" class="skills">
+        <h2>Skills & Expertise</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript (Basics)</li>
+            <li>Responsive Web Design</li>
+            <li>Git & GitHub</li>
+            <li>Basic Backend Concepts</li>
+            <li>Problem Solving</li>
+            <li>C, C++</li>
+            <li> dbms,sql</li>
+            <li> computer networking</li>
+            <li> object orinted programming </li>
+            <li>data structure algorithum</li>
+        </ul>
+    </section>
+
+    
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>
+                A personal portfolio website created using HTML and CSS to
+                showcase my skills, projects, and contact details.  
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Sudoku Solver Project</h3>
+            <p>
+                A web application that solves 9x9 Sudoku grids using backtracking algorithms,
+                teaches users, and provides hints to learn problem-solving logic.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Hospital Management System</h3>
+            <p>
+                SQL and DBMS-based system to manage hospital operations such as patient registration,
+                doctor management, appointments, billing, medications, and room allocation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Shortest Path Program</h3>
+            <p>
+                 Created A program to settle debts among multiple people by calculating who owes whom and how much.
+            </p>
+        </div>
+    </section>
+
+    
+    <section class="resume">
+        <h2>Resume</h2>
+        <a href="file:///C:/Users/hp/myresume.html" download="rati_sharma_resume">Download Resume</a>
+    </section>
+
+   
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="10" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+   
+    <footer>
+        <p>© 2025 Rati Sharma. All Rights Reserved.</p>
+        <a href="https://www.linkedin.com/in/rati-sharma-b6730932a">LinkedIn</a>
+        <a href="https://github.com/ratisharma33">GitHub</a>
+    </footer>
+
+  
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        toggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            toggle.querySelector('i').classList.toggle('fa-bars');
+            toggle.querySelector('i').classList.toggle('fa-times');
+        });
+    </script>
+
+</body>
+</html>
